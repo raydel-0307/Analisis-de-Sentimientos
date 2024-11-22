@@ -1,0 +1,18 @@
+{
+	"json_file":"interest_029_scrapingBot.json",
+	"features": "lastPost",
+	"target": "clasification",
+	"num_threads":10,
+	"model": [
+		"sentiment-analysis",
+		"nlptown/bert-base-multilingual-uncased-sentiment"
+	],
+	"output_filename":"interest_029_output.json",
+	"filters":[{
+		"username": "drotlaufv",
+		"name": "Donny Rotlauf"
+	},
+	{
+		"questions":"lastPost"
+	}]
+}
